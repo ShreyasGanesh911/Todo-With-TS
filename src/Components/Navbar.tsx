@@ -12,10 +12,10 @@ export default function Navbar() {
     <div className="collapse navbar-collapse mx-5" id="navbarNav" style={{flexFlow:'row-reverse'}}>
       <ul className="navbar-nav">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to='/home'>Home</Link>
+          <Link className="nav-link active" aria-current="page" to='/Task'>Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/about">About</Link>
+          <Link className="nav-link" to="/">About</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/">Pricing</Link>

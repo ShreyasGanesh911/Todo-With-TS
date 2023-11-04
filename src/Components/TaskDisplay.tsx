@@ -20,7 +20,7 @@ export default function TaskDisplay() {
     }
   return (
     <>
-      <section className='page bg-warning displayFlex  ' style={{justifyContent:'start'}}>
+      <section className='page bg-warning displayFlex text-center ' style={{justifyContent:'start'}}>
         <div className='w-75 my-5 border-bottom py-4'>
         <input type="text" className='w-50 ' name='task' maxLength={20} value={task} onChange={(e)=>{setTask(e.target.value)}} style={{borderRadius:"8px",height:'4vh',border:'none',padding:'5px'}} placeholder='Try typing something'/>
          <motion.button className='btn btn-danger mx-5' whileTap={{scale:1.09}} onClick={submitTask} onKeyDown={(e)=>{}}>Add Taks</motion.button>
