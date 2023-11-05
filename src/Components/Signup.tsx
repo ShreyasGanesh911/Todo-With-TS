@@ -2,8 +2,12 @@ import React from 'react'
 
 export default function Signup() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <section className='page bg-warning displayFlex'>
+        <form >
+            <div></div>
+        </form>
+      </section>
+    </>
   )
 }
