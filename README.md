@@ -1,3 +1,5 @@
+# To-Do with typeScript
+My very first TS app. I have created a TODO app using TypeScript and React
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
